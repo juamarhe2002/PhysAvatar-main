@@ -1,0 +1,27 @@
+name: phys_avatar
+channels:
+  - nvidia
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.10
+  - pip=22.3.1
+  - pytorch=1.12.1
+  - pytorch-gpu=1.12.1
+  - torchaudio=0.12.1
+  - torchvision=0.13.1
+  - pytorch-cuda=11.6
+  - tqdm=4.65.0
+  - Pillow=9.4.0
+  - wandb=0.15.12
+  - pip:
+    - open3d==0.16.0
+    - trimesh==4.0.1
+    - pyrender==0.1.45
+    - PyOpenGL==3.1.0
+    - git+https://github.com/facebookresearch/pytorch3d.git@v0.7.5
+    - scipy==1.7.3
+    - robust-laplacian==0.2.7
+    - smplx==0.1.28
+    - human-body-prior==0.8.5.0

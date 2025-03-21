@@ -1,0 +1,30 @@
+name: human_rf
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.10
+  - pip=22.3.1
+  - ffmpeg-python==0.2.0
+  - lpips==0.1.4
+  - ninja==1.11.1
+  - numpy==1.23.5
+  - PyYAML==6.0
+  - Pillow==9.3.0
+  - rich==13.3.5
+  - scipy==1.9.3
+  - setuptools==67.6.1
+  - tensorboardX==2.5.1
+  - pytorch==1.13.0
+  - torchaudio==0.13.0
+  - torchvision==0.14.0
+  - toml==0.10.2
+  - tqdm==4.64.1
+  - urllib3==1.25.8
+  - pip:
+    - nerfacc==0.3.1
+    - opencv_python==4.6.0.66
+    - Requests==2.30.0
+    - scikit_image==0.19.3
+    - simple_parsing==0.0.21.post1
